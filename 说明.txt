@@ -1,0 +1,8 @@
+1、network traces存储在'code/cooked_traces'中，trace的格式是'[time_stamp(sec),throughput(kbps)]'。
+
+2、mspc.py 为所设计算法的源码，运行结果将被存储到'code/results/'中。
+
+3、运行Pensieve算法：
+训练好的RL模型存储在'code/models/'中。
+目前文件中存储了一个训练好的模型，运行'python rl_no_training.py'即可测试性能。
+若需要训练新的模型，运行'source ~/.bash_profile'。
